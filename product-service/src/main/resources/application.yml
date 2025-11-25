@@ -1,16 +1,31 @@
 spring:
+  application:
+    name: product-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/product_db
+    url: jdbc:postgresql://localhost:5432/ecommerce
     username: product_user
     password: product_password
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     properties:
       hibernate:
         format_sql: true
     show-sql: true
+  messages:
+    basename: ValidationMessages
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+    properties:
+      spring.json.trusted.packages: "*"
+      spring.json.add.type.headers: false
 
 logging:
   level:
     org.hibernate.SQL: DEBUG
+    org.apache.kafka: DEBUG
+    org.springframework.kafka: DEBUG

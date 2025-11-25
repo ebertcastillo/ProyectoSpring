@@ -13,4 +13,6 @@ public record ProductResponse(
         OffsetDateTime updatedAt,
         Long categoryId,
         String categoryName
-) {}
+) {
+
+}
