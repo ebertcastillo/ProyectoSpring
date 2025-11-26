@@ -3,14 +3,14 @@
 
 # Nombre: EBERT CASTILLO CORTEZ
 
-# se tiene los tres modelos
+**se tiene los tres modelos**
 
-# 1. product-service   (los paquetes son dev.ebecast.product_service)   link: 
-# 2. order-service     (los paquetes son dev.ebecast.order_service)     link:
-# 3. inventory-service (los paquetes son dev.ebecast.inventory_service) link:
+**1. product-service   (los paquetes son dev.ebecast.product_service)   link: https://github.com/ebertcastillo/ProyectoSpring/tree/main/product-service** 
+**2. order-service     (los paquetes son dev.ebecast.order_service)     link: https://github.com/ebertcastillo/orderservice**
+**3. inventory-service (los paquetes son dev.ebecast.inventory_service) link: https://github.com/ebertcastillo/inventory/tree/main/inventory-service/inventory-service**
 
-# Se creo el Proyecto desde 0 con los pasos y cheatsheet proporcionados con el docente se trato de realizar lo mismo
-# se agrego algunos mapper y execption en el proyecto.
+**Se creo el Proyecto desde 0 con los pasos y cheatsheet proporcionados con el docente se trato de realizar lo mismo**
+** se agrego algunos mapper y execption en el proyecto.**
 
 
 # Primer Paso se genero el Proyecto Product Service con todos sus procesos.
