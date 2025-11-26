@@ -3,17 +3,24 @@
 
 # Nombre: EBERT CASTILLO CORTEZ
 
+**Lenguaje:** Spring Boot
+**Descripción:** E-commerce con Spring Boot y Kafka
+
 **se tiene los tres modelos**
 
-**1. product-service   (los paquetes son dev.ebecast.product_service)   link: https://github.com/ebertcastillo/ProyectoSpring/tree/main/product-service** 
-**2. order-service     (los paquetes son dev.ebecast.order_service)     link: https://github.com/ebertcastillo/orderservice**
-**3. inventory-service (los paquetes son dev.ebecast.inventory_service) link: https://github.com/ebertcastillo/inventory/tree/main/inventory-service/inventory-service**
+**1. product-service**   (los paquetes son dev.ebecast.product_service)   link: https://github.com/ebertcastillo/ProyectoSpring/tree/main/product-service
+
+**2. order-service**     (los paquetes son dev.ebecast.order_service)     link: https://github.com/ebertcastillo/orderservice
+
+**3. inventory-service** (los paquetes son dev.ebecast.inventory_service) link: https://github.com/ebertcastillo/inventory/tree/main/inventory-service/inventory-service
 
 **Se creo el Proyecto desde 0 con los pasos y cheatsheet proporcionados con el docente se trato de realizar lo mismo**
 ** se agrego algunos mapper y execption en el proyecto.**
 
 
-# Primer Paso se genero el Proyecto Product Service con todos sus procesos.
+# Primer Paso 
+
+**se genero el Proyecto Product Service con todos sus procesos.**
 
 ![Imagen de contenedor descargada](screenshots/1.png)
 
@@ -60,7 +67,9 @@
 
 ![Imagen de contenedor descargada](screenshots/15.png)
 
-## Segundo Paso Se crea el proyecto order-service donde se modifico y se agrego nuevas excepciones (exception) y se genero el mapper para obtener un codigo limpio
+## Segundo Paso 
+
+**Se crea el proyecto order-service donde se modifico y se agrego nuevas excepciones (exception) y se genero el mapper para obtener un codigo limpio**
 
 ![Imagen de contenedor descargada](screenshots/16.png)
 
@@ -102,7 +111,9 @@
 
 ![Imagen de contenedor descargada](screenshots/26.png)
 
-## Tecer Paso Se crea el proyecto inventory-service donde se modifico y se agrego nuevas excepciones (exception) y se genero el mapper para obtener un codigo limpio
+## Tecer Paso 
+
+**Se crea el proyecto inventory-service donde se modifico y se agrego nuevas excepciones (exception) y se genero el mapper para obtener un codigo limpio**
 
 ![Imagen de contenedor descargada](screenshots/29.png)
 
